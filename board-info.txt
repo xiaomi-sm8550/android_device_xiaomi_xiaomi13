@@ -1,1 +1,1 @@
-require board=taro|mayfly
+require board=fuxi|nuwa

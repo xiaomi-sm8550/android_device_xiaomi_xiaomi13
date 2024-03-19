@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mayfly.mk
+    $(LOCAL_DIR)/lineage_xiaomi13.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mayfly-user \
-    lineage_mayfly-userdebug \
-    lineage_mayfly-eng
+    lineage_xiaomi13-user \
+    lineage_xiaomi13-userdebug \
+    lineage_xiaomi13-eng

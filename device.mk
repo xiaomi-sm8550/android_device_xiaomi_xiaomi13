@@ -5,7 +5,7 @@
 #
 
 # Inherit from sm8450-common
-$(call inherit-product, device/xiaomi/sm8450-common/common.mk)
+$(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
@@ -26,6 +26,3 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-
-# Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/mayfly/mayfly-vendor.mk)
