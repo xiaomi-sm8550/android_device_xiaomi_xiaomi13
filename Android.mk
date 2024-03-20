@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),mayfly)
+ifeq ($(TARGET_DEVICE),xiaomi13)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
