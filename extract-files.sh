@@ -31,8 +31,8 @@ fi
 set -e
 
 # Required!
-export DEVICE=mayfly
-export DEVICE_COMMON=sm8450-common
+export DEVICE=xiaomi13
+export DEVICE_COMMON=sm8550-common
 export VENDOR=xiaomi
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

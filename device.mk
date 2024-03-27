@@ -26,3 +26,6 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Call the proprietary setup
+$(call inherit-product, vendor/xiaomi/xiaomi13/xiaomi13-vendor.mk)

@@ -18,3 +18,6 @@ TARGET_SCREEN_DENSITY := 420
 # Vibrator
 TARGET_QTI_VIBRATOR_EFFECT_LIB := libqtivibratoreffect.xiaomi
 TARGET_QTI_VIBRATOR_USE_EFFECT_STREAM := true
+
+# Include proprietary files
+include vendor/xiaomi/xiaomi13/BoardConfigVendor.mk
